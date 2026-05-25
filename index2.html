@@ -1,0 +1,73 @@
+<!-- ...existing code... -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Results Summary</title>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <div class="left">
+        <h3 class="small-title">Your Result</h3>
+        <div class="score-circle">
+          <div class="score">76</div>
+          <div class="of">of 100</div>
+        </div>
+        <h2 class="verdict">Great</h2>
+        <p class="desc">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+
+      <div class="right">
+        <h3 class="summary-title">Summary</h3>
+
+        <ul class="summary-list">
+          <li class="item reaction">
+            <div class="meta">
+              <span class="icon">⚡</span>
+              <span class="label">Reaction</span>
+            </div>
+            <div class="score-item"><strong>80</strong><span>/ 100</span></div>
+          </li>
+
+          <li class="item memory">
+            <div class="meta">
+              <span class="icon">🧠</span>
+              <span class="label">Memory</span>
+            </div>
+            <div class="score-item"><strong>92</strong><span>/ 100</span></div>
+          </li>
+
+          <li class="item verbal">
+            <div class="meta">
+              <span class="icon">💬</span>
+              <span class="label">Verbal</span>
+            </div>
+            <div class="score-item"><strong>61</strong><span>/ 100</span></div>
+          </li>
+
+          <li class="item visual">
+            <div class="meta">
+              <span class="icon">👁️</span>
+              <span class="label">Visual</span>
+            </div>
+            <div class="score-item"><strong>73</strong><span>/ 100</span></div>
+          </li>
+        </ul>
+
+        <button class="continue" onclick="onContinue()">Continue</button>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function onContinue() {
+      // placeholder - replace with navigation or other behavior
+      alert('Continue clicked');
+    }
+  </script>
+</body>
+</html>

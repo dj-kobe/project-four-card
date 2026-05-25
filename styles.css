@@ -1,0 +1,38 @@
+#summary {
+    background: white;
+   text-align: center;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;    
+  }
+
+#result {
+    background: rgb(151, 36, 151);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+body {
+    background-color: whitesmoke
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#score {
+    display: block;
+    background-image: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), radial-gradient(circle at center, rgb(177, 151, 252), rgb(151, 36, 151));
+    font-size: 50px;
+    color: white;
+    
+}
